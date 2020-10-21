@@ -18,7 +18,6 @@ let string = `/*你好，我是一名前端新人
 #div1{
   border-radius: 50%;
   box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
- 
   border: none;
 }
 /*八卦是阴阳形成的
