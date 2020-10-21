@@ -2,8 +2,7 @@ let html = document.querySelector("#html") //使用选择器找到元素
 let style = document.querySelector("#style")
 let n = 0
 
-let string = `
-/*你好，我是一名前端新人
+let string = `/*你好，我是一名前端新人
 *接下来我来演示一下我的前端功底
 *首先我要准备一个div
 **/
@@ -15,7 +14,7 @@ let string = `
 /*下面我要把div变成一个八卦图
 *注意看好了
 *首先先把div变成一个圆
-**/
+*/
 #div1{
   border-radius: 50%;
   box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
@@ -69,6 +68,6 @@ let step = () => {
       n = n + 1
       step()
     }
-  }, 0)
+  }, 50)
 }
 step()
